@@ -1,17 +1,23 @@
 micronaut:
   application:
-    name: productsMnaut
+    name: products-mnaut
+  server:
+    port: 8080
+
 datasources:
   default:
     driver-class-name: org.postgresql.Driver
     db-type: postgres
     dialect: POSTGRES
+    username: root
+    password: password
+    url: jdbc:postgresql://localhost:5432/products
 jpa:
   default:
     properties:
       hibernate:
         hbm2ddl:
-          auto: none
+          auto: create-drop
 flyway:
   datasources:
     default:
