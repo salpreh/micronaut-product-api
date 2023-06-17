@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.salpreh.products
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [annotation-api, app-name, data, data-jpa, flyway, hibernate-validator, http-client, jackson-databind, java, java-application, jdbc-hikari, junit, logback, lombok, maven, postgres, readme, shade, test-resources, tomcat-server, yaml]
